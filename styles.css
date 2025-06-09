@@ -9,9 +9,11 @@
 .img3 {
   content: url("https://picsum.photos/200/300?grayscale");
 }
+
 .img4 {
   content: url("https://picsum.photos/200/300/");
 }
+
 .img5 {
   content: url("https://picsum.photos/200/300.jpg");
 }
@@ -26,6 +28,7 @@ img {
 .flex {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .selected {
@@ -35,11 +38,11 @@ img {
 p {
   text-align: center;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 button {
   margin: 20px;
   padding: 10px 20px;
-  font-size: 1em;
-  cursor: pointer;
+  font-size: 1rem;
 }
